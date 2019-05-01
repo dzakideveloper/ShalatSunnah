@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_margin="16dp">
+
+    <TextView
+        android:id="@+id/tahajjud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tahajjud"
+        android:layout_marginTop="5sp"
+        android:textSize="16sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/witir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/witir"
+        android:layout_marginTop="5sp"
+        android:textSize="16sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/rawatib"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rawatib"
+        android:layout_marginTop="5sp"
+        android:textSize="16sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/dhuha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dhuha"
+        android:layout_marginTop="5sp"
+        android:textSize="16sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tahiyatul_masjid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tahiyatul_masjid"
+        android:layout_marginTop="5sp"
+        android:textSize="16sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/shalat_syuruk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/shalat_syuruk"
+        android:layout_marginTop="5sp"
+        android:textSize="16sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/istikhoroh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/istikhoroh"
+        android:layout_marginTop="5sp"
+        android:textSize="16sp"
+        android:gravity="center"/>
+
+
+
+</LinearLayout>
